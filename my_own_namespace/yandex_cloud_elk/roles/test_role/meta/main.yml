@@ -1,0 +1,17 @@
+---
+galaxy_info:
+  role_name: test_role
+  author: "PeterFumelli (@PeterFumelli)"
+  description: >
+    Single-task роль, использующая модуль my_test из коллекции
+    my_own_namespace.yandex_cloud_elk для создания или обновления файла.
+  license: MIT
+  min_ansible_version: "2.14"
+  platforms:
+    - name: macOS
+      versions:
+        - all
+    - name: Ubuntu
+      versions:
+        - all
+dependencies: []

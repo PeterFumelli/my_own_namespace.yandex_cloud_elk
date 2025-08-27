@@ -1,0 +1,22 @@
+namespace: my_own_namespace
+name: yandex_cloud_elk
+version: 1.0.0
+readme: README.md
+authors:
+  - "PeterFumelli (@PeterFumelli)"
+description: >
+  Учебная коллекция для демонстрации написания собственного Ansible-модуля и роли.
+  Модуль my_test создаёт/обновляет текстовый файл с заданным содержимым.
+  Роль test_role использует этот модуль и задаёт параметры через defaults.
+license: MIT
+tags:
+  - ansible
+  - training
+  - devops
+  - yandex_cloud
+  - elk
+homepage: "https://github.com/PeterFumelli"
+repository: "https://github.com/PeterFumelli/my_own_namespace.yandex_cloud_elk"
+issues: "https://github.com/PeterFumelli/my_own_namespace.yandex_cloud_elk/issues"
+
+dependencies: {}

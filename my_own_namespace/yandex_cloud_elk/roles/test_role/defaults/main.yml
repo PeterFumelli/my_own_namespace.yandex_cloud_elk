@@ -1,0 +1,2 @@
+test_role_path: "/tmp/test_role.txt"
+test_role_content: "Привет! Это файл, созданный ролью test_role."

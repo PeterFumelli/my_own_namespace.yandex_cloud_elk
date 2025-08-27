@@ -1,0 +1,7 @@
+
+# Игнорируем сборки
+*.tar.gz
+
+# Игнорируем временные каталоги ansible-galaxy
+ansible_collections/
+

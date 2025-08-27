@@ -1,0 +1,18 @@
+---
+- name: Smoke test for my_own_namespace.yandex_cloud_elk.my_test
+  hosts: localhost
+  connection: local
+  gather_facts: false
+  collections:
+    - my_own_namespace.yandex_cloud_elk
+
+  tasks:
+    - name: Create file with content
+      my_test:
+        path: /tmp/elk_smoke.txt
+        content: "Привет!"
+      register: r1
+
+    - name: Show result
+      debug:
+        var: r1

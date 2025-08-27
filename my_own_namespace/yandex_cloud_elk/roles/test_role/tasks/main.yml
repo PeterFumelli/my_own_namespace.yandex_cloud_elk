@@ -1,0 +1,10 @@
+---
+- name: Create/ensure file with content via my_test
+  my_own_namespace.yandex_cloud_elk.my_test:
+    path: "{{ test_role_path }}"
+    content: "{{ test_role_content }}"
+  register: test_role_result
+
+- name: Show result
+  debug:
+    var: test_role_result
